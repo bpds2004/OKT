@@ -6,13 +6,13 @@ export default function Hero() {
       <div className="container-padding pb-16">
         <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-orange">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
               OncoKit Test
             </p>
-            <h1 className="mt-4 text-4xl font-semibold text-brand-slate md:text-5xl">
+            <h1 className="mt-4 text-4xl font-semibold text-blue-950 md:text-5xl">
               A deteção precoce pode salvar vidas. Quer saber como?
             </h1>
-            <p className="mt-4 text-lg text-slate-600">
+            <p className="mt-4 text-lg text-blue-800">
               Uma solução doméstica, rápida e acessível para apoiar a prevenção do cancro
               hereditário com informação clara e partilhável com profissionais de saúde.
             </p>
@@ -25,20 +25,20 @@ export default function Hero() {
               </Link>
               <Link
                 href="/sobre"
-                className="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-brand-blue hover:text-brand-blue"
+                className="rounded-full border border-blue-300/70 px-6 py-3 text-sm font-semibold text-blue-900 transition hover:border-brand-blue hover:text-brand-blue"
               >
                 Conhecer a equipa
               </Link>
             </div>
           </div>
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-soft">
-            <p className="text-sm font-semibold text-brand-blue">Resumo rápido</p>
-            <ul className="mt-4 space-y-3 text-sm text-slate-600">
+          <div className="card-animated p-8">
+            <p className="text-sm font-semibold text-blue-200">Resumo rápido</p>
+            <ul className="mt-4 space-y-3 text-sm text-blue-100">
               <li>Teste genético em casa, pensado para risco hereditário.</li>
               <li>Relatório simples com resultado positivo, negativo ou VUS.</li>
               <li>Integração fácil com profissionais de saúde.</li>
             </ul>
-            <div className="mt-6 rounded-2xl bg-slate-50 p-4 text-xs text-slate-500">
+            <div className="mt-6 rounded-2xl bg-blue-950/60 p-4 text-xs text-blue-200">
               Totalmente estático, pronto para deploy gratuito na Vercel.
             </div>
           </div>
