@@ -29,4 +29,3 @@ Adicione ou edite itens nesses ficheiros e a UI será atualizada automaticamente
 2. Aceda a https://vercel.com e importe o projeto.
 3. Mantenha as opções por defeito e clique em **Deploy**.
 
-O site é totalmente estático (SSG) e compatível com deploy gratuito.

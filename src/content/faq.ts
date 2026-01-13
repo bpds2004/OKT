@@ -10,11 +10,11 @@ export const faqItems: FAQItem[] = [
   },
   {
     question: "É um diagnóstico?",
-    answer: "Não. É uma ferramenta de apoio à prevenção e avaliação de risco genético.",
+    answer: "Sim, indica se tem ou não cancro associado às variantes testadas.",
   },
   {
     question: "Quanto tempo demora?",
-    answer: "Minutos. O processo foi desenhado para ser rápido e simples em casa.",
+    answer: "Minutos. O processo foi desenhado para ser rápido e simples.",
   },
   {
     question: "É doloroso?",
@@ -26,6 +26,6 @@ export const faqItems: FAQItem[] = [
   },
   {
     question: "Como partilho com uma unidade de saúde?",
-    answer: "O relatório pode ser exportado e partilhado diretamente com a sua unidade de saúde.",
+    answer: "O relatório pode ser exportado e/ou partilhado diretamente com a sua unidade de saúde a partir da app.",
   },
 ];

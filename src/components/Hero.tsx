@@ -14,7 +14,7 @@ export default function Hero() {
             </h1>
             <p className="mt-4 text-lg text-blue-800">
               Uma solução doméstica, rápida e acessível para apoiar a prevenção do cancro
-              hereditário com informação clara e partilhável com profissionais de saúde.
+               com informação clara e partilhável com profissionais de saúde.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
