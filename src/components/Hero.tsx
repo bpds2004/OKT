@@ -38,9 +38,7 @@ export default function Hero() {
               <li>Relatório simples com resultado positivo, negativo ou VUS.</li>
               <li>Integração fácil com profissionais de saúde.</li>
             </ul>
-            <div className="mt-6 rounded-2xl bg-blue-950/60 p-4 text-xs text-blue-200">
-              Totalmente estático, pronto para deploy gratuito na Vercel.
-            </div>
+           
           </div>
         </div>
       </div>

@@ -39,13 +39,13 @@ export default function HomePage() {
     <div>
       <Hero />
 
-      <section className="py-8">
+      {/* <section className="py-8">
         <div className="container-padding">
           <div className="inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-600 shadow-soft">
             Criado por Beatriz Sousa e José Alves
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Section title="Problema" subtitle="O desafio no diagnóstico precoce">
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
@@ -149,8 +149,7 @@ export default function HomePage() {
 
       <section className="py-16">
         <div className="container-padding">
-          <div className="rounded-3xl bg-brand-blue px-8 py-12 text-white shadow-soft">
-            <p className="text-lg font-semibold">CTA final</p>
+          <div className="rounded-3xl bg-blue-950 px-8 py-12 text-white shadow-soft">
             <p className="mt-4 text-2xl font-semibold md:text-3xl">
               A cada ano, mais de 9 milhões de pessoas morrem de cancro. A deteção precoce
               começa em casa — OncoKit Test, rápido, acessível e vital para a sua saúde.
