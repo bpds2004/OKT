@@ -34,7 +34,7 @@ export default function Hero() {
           <div className="card-animated p-8">
             <p className="text-sm font-semibold text-blue-200">Resumo rápido</p>
             <ul className="mt-4 space-y-3 text-sm text-blue-100">
-              <li>Teste genético em casa, pensado para risco hereditário.</li>
+              <li>Teste genético em casa, pensado para risco .</li>
               <li>Relatório simples com resultado positivo, negativo ou VUS.</li>
               <li>Integração fácil com profissionais de saúde.</li>
             </ul>

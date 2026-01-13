@@ -30,7 +30,7 @@ const impactCards = [
   },
   {
     title: "Prevenção",
-    description: "Foco em risco hereditário para apoiar decisões preventivas.",
+    description: "Foco em risco para apoiar decisões preventivas.",
   },
 ];
 
