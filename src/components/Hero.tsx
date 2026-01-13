@@ -14,7 +14,7 @@ export default function Hero() {
             </h1>
             <p className="mt-4 text-lg text-slate-600">
               Uma solução doméstica, rápida e acessível para apoiar a prevenção do cancro
-              hereditário com informação clara e partilhável com profissionais de saúde.
+               com informação clara e partilhável com profissionais de saúde.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
@@ -34,8 +34,9 @@ export default function Hero() {
           <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-soft">
             <p className="text-sm font-semibold text-brand-blue">Resumo rápido</p>
             <ul className="mt-4 space-y-3 text-sm text-slate-600">
-              <li>Teste genético em casa, pensado para risco hereditário.</li>
-              <li>Relatório simples com resultado positivo, negativo ou VUS.</li>
+              <li>Teste genético em casa, farmácia ou hospital pensado para precaver descobrir tarde o cancro .</li>
+              <li>Deteção de mutações em genes associados a vários tipos de cancro .</li>
+              <li>Relatório simples com resultado positivo, negativo ou percentagem de risco.</li>
               <li>Integração fácil com profissionais de saúde.</li>
             </ul>
             

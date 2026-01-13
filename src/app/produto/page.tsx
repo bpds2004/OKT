@@ -13,7 +13,7 @@ export default function ProdutoPage() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
             O OncoKit Test combina um dispositivo compacto e um kit doméstico para apoiar a
-            prevenção do cancro hereditário de forma rápida, clara e acessível.
+            deteção precoce do cancro de forma rápida, clara e acessível.
           </p>
         </div>
       </section>
@@ -60,7 +60,7 @@ export default function ProdutoPage() {
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6">
             <p className="text-sm font-semibold text-emerald-700">Negativo</p>
             <p className="mt-2 text-sm text-emerald-700">
-              Sem variantes associadas a risco hereditário identificado.
+              Sem variantes associadas a risco identificado.
             </p>
           </div>
           <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6">
@@ -72,14 +72,15 @@ export default function ProdutoPage() {
           <div className="rounded-2xl border border-rose-200 bg-rose-50 p-6">
             <p className="text-sm font-semibold text-rose-700">Positivo</p>
             <p className="mt-2 text-sm text-rose-700">
-              Variante associada a risco hereditário e recomendação de acompanhamento.
+              Variante associada a risco e recomendação de acompanhamento.
             </p>
           </div>
         </div>
       </Section>
 
       <Section title="Perguntas frequentes" subtitle="Respostas rápidas">
-        <FAQ items={faqItems} />
+        <FAQ  items={faqItems} />
+        
       </Section>
     </div>
   );

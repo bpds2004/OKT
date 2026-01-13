@@ -18,11 +18,11 @@ export default function SobrePage() {
         <div className="grid gap-6 md:grid-cols-2">
           <Card
             title="Beatriz Sousa"
-            description="Engenheira Informática (frontend, app, plataforma)"
+            description="Engenheira Informática (desenvolvimento de software, app móvel, UX/UI) " 
           />
           <Card
             title="José Alves"
-            description="Geneticista (genética clínica, validação, interpretação)"
+            description="Geneticista e biotecnologo (genética do cancro, biologia molecular, validação clínica)"
           />
         </div>
       </Section>

@@ -10,9 +10,7 @@ export default function Footer() {
           <p className="mt-2 text-sm text-slate-600">
             Criado por Beatriz Sousa e José Alves
           </p>
-          <p className="mt-4 text-xs text-slate-500">
-            Este projeto é informativo e não substitui aconselhamento médico.
-          </p>
+          
         </div>
         <div className="text-sm text-slate-600">
           <p className="font-semibold text-slate-700">Contactos</p>
@@ -27,7 +25,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-sm text-slate-600">
+        {/* <div className="text-sm text-slate-600">
           <p className="font-semibold text-slate-700">Social</p>
           <div className="mt-2 flex gap-3">
             <a href="#" aria-label="LinkedIn" className="rounded-full border border-slate-200 p-2 text-xs transition hover:border-brand-blue hover:text-brand-blue">
@@ -40,7 +38,7 @@ export default function Footer() {
               <FaTwitter />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
