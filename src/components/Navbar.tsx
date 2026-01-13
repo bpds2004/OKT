@@ -1,0 +1,35 @@
+import Link from "next/link";
+
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/produto", label: "Produto" },
+  { href: "/concursos", label: "Concursos" },
+  { href: "/galeria", label: "Galeria" },
+  { href: "/sobre", label: "Sobre" },
+];
+
+export default function Navbar() {
+  return (
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
+      <div className="container-padding flex h-16 items-center justify-between">
+        <Link href="/" className="text-lg font-semibold text-brand-slate">
+          OKT – OncoKit Test
+        </Link>
+        <nav className="hidden items-center gap-6 text-sm font-medium text-slate-600 md:flex">
+          {navItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="transition hover:text-brand-blue"
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+        <div className="md:hidden text-sm font-medium text-slate-500">
+          Menu
+        </div>
+      </div>
+    </header>
+  );
+}
