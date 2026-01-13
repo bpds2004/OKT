@@ -15,6 +15,53 @@ body {
 }
 
 .gradient-hero {
-  background: radial-gradient(circle at top left, rgba(37, 99, 235, 0.15), transparent 55%),
-    radial-gradient(circle at top right, rgba(249, 115, 22, 0.18), transparent 50%);
+  background: radial-gradient(circle at top left, rgba(37, 99, 235, 0.2), transparent 55%),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.18), transparent 50%);
+}
+
+.card-animated {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  background: linear-gradient(145deg, #0b1b3a, #0f2a5f);
+  box-shadow: 0 18px 35px rgba(30, 64, 175, 0.25);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.card-animated::before {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 160%;
+  background-image: linear-gradient(180deg, #38bdf8, #2563eb, #1d4ed8);
+  animation: spinGlow 3.5s linear infinite;
+  opacity: 0.9;
+}
+
+.card-animated::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 1.35rem;
+  background: linear-gradient(145deg, #0b1b3a, #102a57);
+}
+
+.card-animated > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card-animated:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 22px 45px rgba(37, 99, 235, 0.35);
+}
+
+@keyframes spinGlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

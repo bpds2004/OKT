@@ -8,10 +8,10 @@ interface CardProps {
 
 export default function Card({ title, description, icon }: CardProps) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
-      {icon ? <div className="mb-4 text-brand-blue">{icon}</div> : null}
-      <h3 className="text-lg font-semibold text-brand-slate">{title}</h3>
-      <p className="mt-2 text-sm text-slate-600">{description}</p>
+    <div className="card-animated p-6">
+      {icon ? <div className="mb-4 text-blue-200">{icon}</div> : null}
+      <h3 className="text-lg font-semibold text-blue-100">{title}</h3>
+      <p className="mt-2 text-sm text-blue-200">{description}</p>
     </div>
   );
 }
