@@ -2,6 +2,7 @@ import Link from "next/link";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import Card from "@/components/Card";
+import EmojiBurst from "@/components/EmojiBurst";
 
 const howSteps = [
   {
@@ -154,6 +155,7 @@ export default function HomePage() {
               A cada ano, mais de 9 milhões de pessoas morrem de cancro. A deteção precoce
               começa em casa — OncoKit Test, rápido, acessível e vital para a sua saúde.
             </p>
+            <EmojiBurst emojis={["✨", "🧬", "💡", "💙"]} size="text-3xl" />
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/produto"

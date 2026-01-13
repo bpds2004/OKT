@@ -1,3 +1,6 @@
+import { MdEmail, MdLocationOn } from "react-icons/md";
+import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50">
@@ -13,21 +16,29 @@ export default function Footer() {
         </div>
         <div className="text-sm text-slate-600">
           <p className="font-semibold text-slate-700">Contactos</p>
-          <p className="mt-2">geral@onco-kit-test.pt</p>
-          <p>Portugal</p>
+          <div className="mt-2 flex flex-col gap-1">
+            <div className="flex items-center gap-2">
+              <MdEmail className="text-lg text-slate-700" />
+              <a href="mailto:oncokit.test@gmail.com" className="hover:underline">oncokit.test@gmail.com</a>
+            </div>
+            <div className="flex items-center gap-2">
+              <MdLocationOn className="text-lg text-slate-700" />
+              <span>Portugal</span>
+            </div>
+          </div>
         </div>
         <div className="text-sm text-slate-600">
           <p className="font-semibold text-slate-700">Social</p>
           <div className="mt-2 flex gap-3">
-            {["LinkedIn", "Instagram", "X"].map((network) => (
-              <button
-                key={network}
-                className="rounded-full border border-slate-200 px-3 py-1 text-xs transition hover:border-brand-blue hover:text-brand-blue"
-                type="button"
-              >
-                {network}
-              </button>
-            ))}
+            <a href="#" aria-label="LinkedIn" className="rounded-full border border-slate-200 p-2 text-xs transition hover:border-brand-blue hover:text-brand-blue">
+              <FaLinkedin />
+            </a>
+            <a href="#" aria-label="Instagram" className="rounded-full border border-slate-200 p-2 text-xs transition hover:border-brand-blue hover:text-brand-blue">
+              <FaInstagram />
+            </a>
+            <a href="#" aria-label="X" className="rounded-full border border-slate-200 p-2 text-xs transition hover:border-brand-blue hover:text-brand-blue">
+              <FaTwitter />
+            </a>
           </div>
         </div>
       </div>
