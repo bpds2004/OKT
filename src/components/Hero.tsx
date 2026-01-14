@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EmojiBurst from "./EmojiBurst";
 
 export default function Hero() {
   return (
@@ -9,13 +10,17 @@ export default function Hero() {
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
               OncoKit Test
             </p>
-            <h1 className="mt-4 text-4xl font-semibold text-blue-950 md:text-5xl">
-              A deteção precoce pode salvar vidas. Quer saber como?
-            </h1>
-            <p className="mt-4 text-lg text-blue-800">
+            <p className ="mt-4 max-w-3xl text-3xl font-bold leading-tight text-blue-900 sm:text-4xl md:text-1xl">
+              A cada ano, mais de 9 milhões de pessoas morrem de cancro. </p>
+              <p className="mt-4 max-w-3xl text-1xl font-bold leading-tight text-blue-900 ">
+                A deteção precoce começa em casa — OncoKit Test, rápido, acessível e vital para a sua saúde.
+            </p>
+            <EmojiBurst emojis={["✨", "🧬", "💡", "💙"]} size="text-3xl" />
+            
+            {/* <p className="mt-4 text-lg text-blue-800">
               Uma solução doméstica, rápida e acessível para apoiar a prevenção do cancro
                com informação clara e partilhável com profissionais de saúde.
-            </p>
+            </p> */}
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/produto"
@@ -34,9 +39,10 @@ export default function Hero() {
           <div className="card-animated p-8">
             <p className="text-sm font-semibold text-blue-200">Resumo rápido</p>
             <ul className="mt-4 space-y-3 text-sm text-blue-100">
-              <li>Teste genético em casa, pensado para risco .</li>
-              <li>Relatório simples com resultado positivo, negativo ou VUS.</li>
-              <li>Integração fácil com profissionais de saúde.</li>
+              <li>Teste genético rápido e simples.</li>
+              <li>Dispositivo compacto para análise genética.</li>
+              <li>Relatório simples com resultado positivo ou negativo.</li>
+              <li>Integração com app fácil e intuitiva. </li>
             </ul>
            
           </div>

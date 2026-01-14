@@ -11,65 +11,41 @@ export interface GalleryItem {
 export const galleryItems: GalleryItem[] = [
   {
     id: "device-1",
-    title: "Dispositivo OKT",
+    title: "Dispositivo ",
     category: "Dispositivo",
     src: "/images/device-01.svg",
     description: "Protótipo conceptual do dispositivo OKT.",
   },
-  {
-    id: "device-2",
-    title: "Leitor compacto",
-    category: "Dispositivo",
-    src: "/images/device-02.svg",
-    description: "Versão portátil para uso doméstico.",
-  },
+  
   {
     id: "kit-1",
-    title: "Componentes do kit",
+    title: "Kit de recolha de swab oral",
     category: "Kit",
     src: "/images/kit-01.svg",
-    description: "Materiais essenciais para recolha simples.",
+    description: "Realização de teste genético hereditário.",
   },
   {
     id: "kit-2",
-    title: "Embalagem do kit",
+    title: "Kit de recolha de amostra de sangue",
     category: "Kit",
     src: "/images/kit-02.svg",
-    description: "Caixa organizada e fácil de armazenar.",
+    description: "Realização de teste genético de cancro ativo.",
   },
   {
+    //adicionais botao para descarregar app e carrosel de imagens da app
     id: "app-1",
-    title: "Dashboard da app",
+    title: "Screens da aplicação móvel",
     category: "App",
     src: "/images/app-01.svg",
-    description: "Relatório claro com recomendações iniciais.",
+    description: "Imagens da interface da aplicação móvel OKT.",
   },
-  {
-    id: "app-2",
-    title: "Partilha segura",
-    category: "App",
-    src: "/images/app-02.svg",
-    description: "Exportação rápida para profissionais de saúde.",
-  },
-  {
-    id: "event-1",
-    title: "Pitch de startup",
-    category: "Eventos",
-    src: "/images/event-01.svg",
-    description: "Apresentação do OKT em concursos de inovação.",
-  },
-  {
-    id: "event-2",
-    title: "Equipa em demonstração",
-    category: "Eventos",
-    src: "/images/event-02.svg",
-    description: "Demonstração do protótipo em eventos.",
-  },
+  
+  
 ];
 
 export const galleryCategories: GalleryCategory[] = [
   "Dispositivo",
   "Kit",
   "App",
-  "Eventos",
+  
 ];

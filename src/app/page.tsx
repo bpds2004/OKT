@@ -7,7 +7,7 @@ import EmojiBurst from "@/components/EmojiBurst";
 const howSteps = [
   {
     title: "Recolha simples da amostra",
-    description: "O kit orienta a recolha de forma rápida e segura em casa.",
+    description: "O kit orienta a recolha de forma rápida e segura.",
   },
   {
     title: "Processamento no dispositivo",
@@ -15,22 +15,23 @@ const howSteps = [
   },
   {
     title: "Relatório na app e partilha com médico",
-    description: "Resultados claros prontos para exportar e discutir.",
+    description: "Resultados claros prontos para exportar e diagnosticar.",
   },
 ];
 
 const impactCards = [
   {
-    title: "Rapidez",
-    description: "Informação essencial em minutos para decisões mais cedo.",
-  },
-  {
     title: "Acessibilidade",
-    description: "Modelo pensado para reduzir barreiras de custo e deslocação.",
+    description: "Dispositivo portátil e leve pensado para reduzir barreiras de custo e deslocação.",
   },
   {
-    title: "Prevenção",
-    description: "Foco em risco para apoiar decisões preventivas.",
+    title: "Rapidez",
+    description: "Informação essencial em minutos.                                        Decisões clínicas em tempo real.",
+  },
+  
+  {
+    title: "Precisão Clínica",
+    description: "Tecnologia validada para deteção de variações e padrões mutacionais genéticos específicos.",
   },
 ];
 
@@ -51,32 +52,26 @@ export default function HomePage() {
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="card-animated p-6">
             <ul className="space-y-4 text-sm text-blue-200">
-              <li>• Diagnóstico tardio continua a ser uma das maiores causas de mortalidade.</li>
-              <li>• Testes tradicionais podem ser caros e inacessíveis.</li>
-              <li>• Muita gente só descobre o risco quando já é tarde.</li>
+              <li>• A taxa de mortalidade continua a ser elevada devido a diagnósticos tardios.</li>
+              <li>• Testes tradicionais podem ser caros e/ou tardios.</li>
+              <li>• </li>
             </ul>
           </div>
-          <div className="card-animated p-6 text-sm text-blue-200">
-            O OKT responde a este cenário com uma abordagem doméstica, clara e pronta a ser
-            partilhada com profissionais de saúde.
-          </div>
+          
         </div>
       </Section>
 
       <Section title="Solução" subtitle="Um teste genético simples e acessível">
-        <div className="grid gap-6 md:grid-cols-3">
-          {[
-            "Teste genético focado em cancro hereditário, feito em casa.",
-            "Resultados rápidos e fáceis de compreender.",
-            "Relatório pronto a partilhar com profissionais de saúde.",
-          ].map((item) => (
-            <div
-              key={item}
-              className="card-animated p-6 text-sm text-blue-200"
-            >
-              {item}
-            </div>
-          ))}
+        <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="card-animated p-6">
+            <ul className="space-y-4 text-sm text-blue-200">
+              <li>• Teste genético focado em cancro ativo e risco hereditário.</li>
+              <li>• Resultados rápidos e fáceis de compreender.</li>
+              <li>• Relatório pronto a partilhar com profissionais de saúde.</li>
+              <li>• Disponível para realizar em casa, farmácias e centros de saúde.</li>
+            </ul>
+          </div>
+          
         </div>
       </Section>
 
@@ -110,7 +105,7 @@ export default function HomePage() {
           <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
             <div>
               <p className="text-lg font-semibold text-blue-100">
-                Imagens do protótipo, do kit e da experiência na app.
+                Imagens do dispositivo, dos kits e da experiência na app.
               </p>
               <p className="mt-2 text-sm text-blue-200">
                 Explore os visuais essenciais e mockups em alta qualidade.
@@ -131,10 +126,10 @@ export default function HomePage() {
           <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
             <div>
               <p className="text-lg font-semibold text-blue-100">
-                Indicadores de tração e participação em concursos.
+                Participação em concursos e congressos.
               </p>
               <p className="mt-2 text-sm text-blue-200">
-                A lista completa está sempre atualizada numa área dedicada.
+                Veja onde o OKT tem sido apresentado e reconhecido.
               </p>
             </div>
             <Link
@@ -147,31 +142,7 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <section className="py-16">
-        <div className="container-padding">
-          <div className="rounded-3xl bg-blue-950 px-8 py-12 text-white shadow-soft">
-            <p className="mt-4 text-2xl font-semibold md:text-3xl">
-              A cada ano, mais de 9 milhões de pessoas morrem de cancro. A deteção precoce
-              começa em casa — OncoKit Test, rápido, acessível e vital para a sua saúde.
-            </p>
-            <EmojiBurst emojis={["✨", "🧬", "💡", "💙"]} size="text-3xl" />
-            <div className="mt-6 flex flex-wrap gap-4">
-              <Link
-                href="/produto"
-                className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand-blue"
-              >
-                Conhecer o produto
-              </Link>
-              <Link
-                href="/sobre"
-                className="rounded-full border border-white/50 px-6 py-3 text-sm font-semibold text-white"
-              >
-                Falar com a equipa
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 }

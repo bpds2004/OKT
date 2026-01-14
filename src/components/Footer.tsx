@@ -1,32 +1,41 @@
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50">
       <div className="container-padding grid gap-6 py-10 md:grid-cols-[1.5fr_1fr_1fr]">
         <div>
-          <p className="text-lg font-semibold text-brand-slate">OKT – OncoKit Test</p>
+          <p className="text-lg font-semibold text-brand-slate">Fundadores </p>
           <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div className="flex items-start gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-brand-blue to-brand-slate text-white">
-                <span className="font-semibold">BS</span>
-              </div>
+               <Image
+                src="/images/bia.jpg"
+                alt="Beatriz Sousa"
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-full object-cover"
+              />
               <div className="text-sm text-slate-600">
-                <p className="font-semibold text-slate-800">Beatriz Sousa</p>
-                <p className="mt-1">Cofundadora — Investigadora em genética aplicada e UX para saúde.</p>
-                <p className="mt-1">Responsável pelo design do kit e pela comunicação clínica.</p>
+                <p className="font-bold text-slate-800">Beatriz Sousa</p>
+                <p className="mt-1 font-semibold">Engenheira Informática.</p>
+                <p className="mt-1">Responsável pela app e integração tecnológica</p>
               </div>
             </div>
 
             <div className="flex items-start gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500 to-green-700 text-white">
-                <span className="font-semibold">JA</span>
-              </div>
+               <Image
+                src="/images/ze.jpg"
+                alt="José Alves"
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-full object-cover"
+              />
               <div className="text-sm text-slate-600">
-                <p className="font-semibold text-slate-800">José Alves</p>
-                <p className="mt-1">Cofundador — Engenheiro de hardware e líder técnico do protótipo.</p>
-                <p className="mt-1">Cuida da integração do leitor e do processamento de sinais.</p>
+                <p className="font-bold text-slate-800">José Alves</p>
+                <p className="mt-1 font-semibold">Geneticista e biotecnólogo.</p>
+                <p className="mt-1">Responsável pelo desenvolvimento da tecnologia genética</p>
               </div>
             </div>
           </div>

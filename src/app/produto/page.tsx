@@ -9,76 +9,81 @@ export default function ProdutoPage() {
       <section className="gradient-hero py-16">
         <div className="container-padding">
           <h1 className="text-4xl font-semibold text-brand-slate md:text-5xl">
-            O produto OKT
+            Os nossos produtos
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
-            O OncoKit Test combina um dispositivo compacto e um kit doméstico para apoiar a
+            O OncoKit Test combina um dispositivo compacto e kits simples para apoiar a
             deteção precoce do cancro de forma rápida, clara e acessível.
           </p>
         </div>
       </section>
 
-      <Section title="O que é" subtitle="Um kit doméstico com tecnologia clínica">
+
+<Section title="O nosso dispositivo" >
         <div className="grid gap-6 md:grid-cols-2">
           <Card
-            title="Teste genético em casa"
-            description="Recolha simples da amostra, sem necessidade de deslocações imediatas."
+            title="Dispositivo de leitura compacto"
+            description="Analisa amostras genéticas de forma rápida e precisa."
+          /> 
+           
+          
+        </div>
+      </Section>
+
+      <Section title="Os nossos kits" >
+        <div className="grid gap-6 md:grid-cols-2">
+          <Card
+            title="Teste genético hereditário"
+            description="Identifica variantes genéticas associadas a risco hereditário de cancro. Teste feito a partir de swab oral."
+          /> 
+           
+          <Card
+            title="Teste genético de cancro ativo"
+            description="Deteta variantes genéticas associadas a cancro ativo. Teste feito a partir de amostra de sangue."
+          />
+        </div>
+      </Section>
+
+      <Section title="O que vem no kit">
+        <div className="grid gap-6 md:grid-cols-3">
+          <Card
+            title="Dispositivo de leitura compacto"
           />
           <Card
-            title="Integração com profissionais"
-            description="Resultados fáceis de partilhar com médicos e unidades de saúde."
+            title="Materiais de recolha segura"
           />
+          <Card
+            title="Guia rápido e acesso à app"
+          />
+          
+          
+          
         </div>
       </Section>
 
-      <Section title="O que vem no kit" subtitle="Tudo o que precisa num só pacote">
-        <div className="grid gap-6 md:grid-cols-3">
-          {[
-            "Dispositivo de leitura compacto",
-            "Materiais de recolha segura",
-            "Guia rápido e acesso à app",
-          ].map((item) => (
-            <div
-              key={item}
-              className="rounded-2xl border border-slate-200 bg-white p-6 text-sm text-slate-600 shadow-soft"
-            >
-              {item}
-            </div>
-          ))}
-        </div>
-      </Section>
 
-      <Section title="Para quem é" subtitle="Prevenção focada em risco hereditário">
-        <div className="rounded-2xl border border-slate-200 bg-white p-6 text-sm text-slate-600 shadow-soft">
-          Indicado para pessoas com histórico familiar de cancro, equipas de prevenção e
-          qualquer pessoa que queira informação genética clara para decisões mais cedo.
-        </div>
-      </Section>
-
-      <Section title="O que o relatório mostra" subtitle="Resultados claros e fáceis de partilhar">
+      <Section title="O que o relatório mostra" >
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6">
             <p className="text-sm font-semibold text-emerald-700">Negativo</p>
-            <p className="mt-2 text-sm text-emerald-700">
-              Sem variantes associadas a risco identificado.
+            <p className="mt-2 text-m text-emerald-700">
+              Não há risco genético detetado associado ao cancro. </p> 
+            <p className="mt-2 text-m text-emerald-700">Não tem cancro ativo identificado.
             </p>
           </div>
-          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6">
-            <p className="text-sm font-semibold text-amber-700">VUS</p>
-            <p className="mt-2 text-sm text-amber-700">
-              Variante de significado incerto para análise clínica adicional.
-            </p>
-          </div>
+          
           <div className="rounded-2xl border border-rose-200 bg-rose-50 p-6">
             <p className="text-sm font-semibold text-rose-700">Positivo</p>
-            <p className="mt-2 text-sm text-rose-700">
-              Variante associada a risco e recomendação de acompanhamento.
+            <p className="mt-2 text-m text-rose-700">
+              Cancro hereditário identificado.</p>
+            <p className="mt-2 text-m text-rose-700">
+              Cancro ativo identificado.
             </p>
           </div>
         </div>
       </Section>
 
-      <Section title="Perguntas frequentes" subtitle="Respostas rápidas">
+      <Section title="Perguntas frequentes" >
         <FAQ  items={faqItems} />
         
       </Section>

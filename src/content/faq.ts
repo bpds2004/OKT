@@ -6,7 +6,7 @@ export interface FAQItem {
 export const faqItems: FAQItem[] = [
   {
     question: "Isto substitui um médico?",
-    answer: "Não. O OKT serve como apoio à prevenção e deve ser acompanhado por profissionais de saúde.",
+    answer: "Não. O OKT funciona como deteção precoce e deve ser complementado com acompanhamento médico.",
   },
   {
     question: "É um diagnóstico?",
@@ -22,10 +22,10 @@ export const faqItems: FAQItem[] = [
   },
   {
     question: "Quem deve usar?",
-    answer: "Pessoas com histórico familiar de cancro hereditário ou que procuram prevenção proativa.",
+    answer: "Pessoas com histórico familiar de cancro ou que procuram prevenção proativa.",
   },
   {
-    question: "Como partilho com uma unidade de saúde?",
-    answer: "O relatório pode ser exportado e/ou partilhado diretamente com a sua unidade de saúde a partir da app.",
+    question: "Como partilho com o meu médico de família?",
+    answer: "O relatório pode ser exportado e/ou partilhado diretamente com o seu médico de família a partir da app.",
   },
 ];
