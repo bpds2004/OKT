@@ -57,7 +57,7 @@ export default function SobrePage() {
                   <p className="mt-2 text-sm text-blue-200">
                   Coordena a validação científica do OncoKit Test, desde a seleção de biomarcadores à
                   definição de protocolos laboratoriais e critérios de qualidade.</p>
-                  <p className="mt-2 text-sm text-blue-200">
+                   <p className="mt-2 text-sm text-blue-200">
                   Garante que o kit
                   mantém rigor clínico e relevância preventiva.
 
