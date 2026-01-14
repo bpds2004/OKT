@@ -48,12 +48,15 @@ export default function ProdutoPage() {
         <div className="grid gap-6 md:grid-cols-3">
           <Card
             title="Dispositivo de leitura compacto"
+            description="Análise genética rápida e precisa."
           />
           <Card
             title="Materiais de recolha segura"
+            description="Swabs orais e tubos de recolha de sangue com instruções claras."
           />
           <Card
             title="Guia rápido e acesso à app"
+            description="Instruções passo a passo e app móvel para resultados."
           />
           
           
