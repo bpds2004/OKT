@@ -26,7 +26,7 @@ export default function Footer() {
 
             <div className="flex items-start gap-3">
                <Image
-                src="/images/ze.jpg"
+                src="/images/ze.jpeg"
                 alt="José Alves"
                 width={48}
                 height={48}

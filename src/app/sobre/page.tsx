@@ -43,7 +43,7 @@ export default function SobrePage() {
           <div className="card-animated p-6">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
               <Image
-                src="/images/ze.jpg"
+                src="/images/ze.jpeg"
                 alt="José Alves"
                 width={96}
                 height={96}
