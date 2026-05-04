@@ -14,7 +14,7 @@ export const galleryItems: GalleryItem[] = [
     title: "Dispositivo ",
     category: "Dispositivo",
     src: "/images/device-01.svg",
-    description: "Protótipo conceptual do dispositivo OKT.",
+    description: "Protótipo conceptual do dispositivo OKT para testes de cancro da mama.",
   },
   
   {
@@ -22,14 +22,14 @@ export const galleryItems: GalleryItem[] = [
     title: "Kit de recolha de swab oral",
     category: "Kit",
     src: "/images/kit-01.svg",
-    description: "Realização de teste genético hereditário.",
+    description: "Realização de teste genético hereditário para risco de cancro da mama.",
   },
   {
     id: "kit-2",
     title: "Kit de recolha de amostra de sangue",
     category: "Kit",
     src: "/images/kit-02.svg",
-    description: "Realização de teste genético de cancro ativo.",
+    description: "Realização de teste genético de cancro da mama ativo.",
   },
   {
     //adicionais botao para descarregar app e carrosel de imagens da app
@@ -37,7 +37,7 @@ export const galleryItems: GalleryItem[] = [
     title: "Screens da aplicação móvel",
     category: "App",
     src: "/images/app-01.svg",
-    description: "Imagens da interface da aplicação móvel OKT.",
+    description: "Imagens da interface da aplicação móvel OKT para acompanhamento de cancro da mama.",
   },
   
   

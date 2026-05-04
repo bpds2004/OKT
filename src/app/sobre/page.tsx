@@ -9,7 +9,7 @@ export default function SobrePage() {
         <div className="container-padding">
           <h1 className="text-4xl font-semibold text-brand-slate md:text-5xl">Sobre nós</h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
-            A missão do OKT é transformar o acesso ao diagonóstico precoce e personalizado do cancro através de uma solução genética inovadora, simples e acessível a todos.
+            A missão do OKT é transformar o acesso ao diagnóstico precoce e personalizado do cancro da mama através de uma solução genética inovadora, simples e acessível.
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function SobrePage() {
               <div>
                 <h3 className="text-lg font-semibold text-blue-100">José Alves</h3>
                 <p className="mt-2 text-sm text-blue-200">
-                  Geneticista e biotecnólogo especializado em genética do cancro e biologia molecular.
+                  Geneticista e biotecnólogo especializado em genética do cancro da mama e biologia molecular.
                   </p>
                   <p className="mt-2 text-sm text-blue-200">
                   Coordena a validação científica do OncoKit Test, desde a seleção de biomarcadores à
@@ -64,7 +64,7 @@ export default function SobrePage() {
                 </p>
                 <p className="mt-2 text-sm text-blue-200">
                   Motivado pela paixão pela genética e pelo impacto positivo na saúde pública, visa
-                  tornar a genética do cancro acessível a todos.</p>
+                  tornar a genética do cancro da mama acessível a todos.</p>
               </div>
             </div>
             </div>
@@ -75,11 +75,11 @@ export default function SobrePage() {
         <div className="grid gap-6 md:grid-cols-3">
           <Card
             title="Visão"
-            description="Transformar o diagnóstico do cancro através de uma solução genética acessível, rápida e precisa para todos."
+            description="Transformar o diagnóstico do cancro da mama através de uma solução genética acessível, rápida e precisa."
           />
           <Card
             title="Missão"
-            description="Desenvolver um teste genético inovador que capacite indivíduos e profissionais de saúde com informação essencial para a deteção precoce e decisões clínicas informadas."
+            description="Desenvolver um teste genético inovador que capacite indivíduos e profissionais de saúde com informação essencial para a deteção precoce do cancro da mama e decisões clínicas informadas."
           />
           <Card
             title="Valores"

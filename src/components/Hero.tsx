@@ -11,9 +11,9 @@ export default function Hero() {
               OncoKit Test
             </p>
             <p className ="mt-4 max-w-3xl text-3xl font-bold leading-tight text-blue-900 sm:text-4xl md:text-1xl">
-              A cada ano, mais de 9 milhões de pessoas morrem de cancro. </p>
+              Foco na deteção precoce do cancro da mama, com ciência acessível. </p>
               <p className="mt-4 max-w-3xl text-1xl font-bold leading-tight text-blue-900 ">
-                A deteção precoce começa em casa — OncoKit Test, rápido, acessível e vital para a sua saúde.
+                A deteção precoce começa em casa — OncoKit Test para cancro da mama, rápido, acessível e vital para a sua saúde.
             </p>
             <EmojiBurst emojis={["✨", "🧬", "💡", "💙"]} size="text-3xl" />
             
@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="card-animated p-8">
             <p className="text-sm font-semibold text-blue-200">Resumo rápido</p>
             <ul className="mt-4 space-y-3 text-sm text-blue-100">
-              <li>Teste genético rápido e simples.</li>
+              <li>Teste genético rápido e simples para cancro da mama.</li>
               <li>Dispositivo compacto para análise genética.</li>
               <li>Relatório simples com resultado positivo ou negativo.</li>
               <li>Integração com app fácil e intuitiva. </li>

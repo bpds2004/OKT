@@ -9,7 +9,7 @@ export default function ConcursosPage() {
         <div className="container-padding">
           <h1 className="text-4xl font-semibold text-brand-slate md:text-5xl">Concursos</h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
-            Lista de concursos e iniciativas onde o OKT participou ou está a participar.
+            Lista de concursos e iniciativas onde o OKT foi apresentado como solução de deteção precoce do cancro da mama.
           </p>
         </div>
       </section>
