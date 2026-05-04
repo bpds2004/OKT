@@ -1,5 +1,4 @@
 import Section from "@/components/Section";
-import GalleryGrid from "@/components/GalleryGrid";
 
 export default function GaleriaPage() {
   return (
@@ -8,13 +7,18 @@ export default function GaleriaPage() {
         <div className="container-padding">
           <h1 className="text-4xl font-semibold text-brand-slate md:text-5xl">Galeria</h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
-            Explore imagens do dispositivo, kits, app e materiais educativos focados no cancro da mama.
+            Estamos a preparar uma seleção visual cuidada sobre o dispositivo, os kits e a experiência digital.
           </p>
         </div>
       </section>
 
-      <Section title="Imagens" subtitle="Mockups e protótipos">
-        <GalleryGrid />
+      <Section title="Imagens" subtitle="Conteúdo em preparação">
+        <div className="card-animated p-8">
+          <p className="text-lg font-semibold text-blue-100">Galeria disponível em breve.</p>
+          <p className="mt-2 max-w-2xl text-sm text-blue-200">
+            Estamos a finalizar os visuais para partilhar uma apresentação mais completa, bonita e intuitiva.
+          </p>
+        </div>
       </Section>
     </div>
   );
