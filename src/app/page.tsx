@@ -54,7 +54,7 @@ export default function HomePage() {
             <ul className="space-y-4 text-sm text-blue-200">
               <li>• A taxa de mortalidade continua a ser elevada devido a diagnósticos tardios.</li>
               <li>• Testes tradicionais podem ser caros e/ou tardios.</li>
-              <li>• </li>
+              
             </ul>
           </div>
           
