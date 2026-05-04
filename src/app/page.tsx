@@ -74,7 +74,7 @@ export default function HomePage() {
               <li>• Teste genético focado em cancro da mama ativo e risco hereditário.</li>
               <li>• Resultados rápidos e fáceis de compreender.</li>
               <li>• Relatório pronto a partilhar com profissionais de saúde.</li>
-              <li>• Disponível para realizar em casa, farmácias e centros de saúde.</li>
+              <li>• Realizado por oncologistas, com duração aproximada de 40 minutos.</li>
             </ul>
           </div>
           
@@ -121,10 +121,10 @@ export default function HomePage() {
           <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
             <div>
               <p className="text-lg font-semibold text-blue-100">
-                Imagens do dispositivo, dos kits e da experiência na app.
+                A nossa galeria visual está quase pronta.
               </p>
               <p className="mt-2 text-sm text-blue-200">
-                Explore os visuais essenciais e mockups em alta qualidade.
+                Em breve disponibilizaremos imagens do dispositivo, kits e experiência na app.
               </p>
             </div>
             <Link
