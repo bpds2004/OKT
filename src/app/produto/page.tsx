@@ -13,7 +13,7 @@ export default function ProdutoPage() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
             O OncoKit Test combina um dispositivo compacto e kits simples para apoiar a
-            deteção precoce do cancro de forma rápida, clara e acessível.
+            deteção precoce do cancro da mama de forma rápida, clara e acessível.
           </p>
         </div>
       </section>
@@ -34,12 +34,12 @@ export default function ProdutoPage() {
         <div className="grid gap-6 md:grid-cols-2">
           <Card
             title="Teste genético hereditário"
-            description="Identifica variantes genéticas associadas a risco hereditário de cancro. Teste feito a partir de swab oral."
+            description="Identifica variantes genéticas associadas a risco hereditário de cancro da mama. Teste feito a partir de swab oral."
           /> 
            
           <Card
             title="Teste genético de cancro ativo"
-            description="Deteta variantes genéticas associadas a cancro ativo. Teste feito a partir de amostra de sangue."
+            description="Deteta variantes genéticas associadas a cancro da mama ativo. Teste feito a partir de amostra de sangue."
           />
         </div>
       </Section>
@@ -70,17 +70,17 @@ export default function ProdutoPage() {
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-6">
             <p className="text-sm font-semibold text-emerald-700">Negativo</p>
             <p className="mt-2 text-m text-emerald-700">
-              Não há risco genético detetado associado ao cancro. </p> 
-            <p className="mt-2 text-m text-emerald-700">Não tem cancro ativo identificado.
+              Não há risco genético detetado associado ao cancro da mama. </p> 
+            <p className="mt-2 text-m text-emerald-700">Não há cancro da mama ativo identificado.
             </p>
           </div>
           
           <div className="rounded-2xl border border-rose-200 bg-rose-50 p-6">
             <p className="text-sm font-semibold text-rose-700">Positivo</p>
             <p className="mt-2 text-m text-rose-700">
-              Cancro hereditário identificado.</p>
+              Risco hereditário para cancro da mama identificado.</p>
             <p className="mt-2 text-m text-rose-700">
-              Cancro ativo identificado.
+              Cancro da mama ativo identificado.
             </p>
           </div>
         </div>

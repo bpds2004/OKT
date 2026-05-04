@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "OKT – OncoKit Test",
   description:
-    "OncoKit Test: deteção precoce de cancro hereditário com um teste genético doméstico, rápido e acessível.",
+    "OncoKit Test: deteção precoce do cancro da mama com um teste genético doméstico, rápido e acessível.",
 };
 
 export default function RootLayout({

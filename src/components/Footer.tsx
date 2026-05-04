@@ -20,7 +20,7 @@ export default function Footer() {
               <div className="text-sm text-slate-600">
                 <p className="font-bold text-slate-800">Beatriz Sousa</p>
                 <p className="mt-1 font-semibold">Engenheira Informática.</p>
-                <p className="mt-1">Responsável pela app e integração tecnológica</p>
+                <p className="mt-1">Responsável pela app e integração tecnológica para acompanhamento do cancro da mama.</p>
               </div>
             </div>
 
@@ -35,7 +35,7 @@ export default function Footer() {
               <div className="text-sm text-slate-600">
                 <p className="font-bold text-slate-800">José Alves</p>
                 <p className="mt-1 font-semibold">Geneticista e biotecnólogo.</p>
-                <p className="mt-1">Responsável pelo desenvolvimento da tecnologia genética</p>
+                <p className="mt-1">Responsável pelo desenvolvimento da tecnologia genética para cancro da mama.</p>
               </div>
             </div>
           </div>

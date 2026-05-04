@@ -6,11 +6,11 @@ export interface FAQItem {
 export const faqItems: FAQItem[] = [
   {
     question: "Isto substitui um médico?",
-    answer: "Não. O OKT funciona como deteção precoce e deve ser complementado com acompanhamento médico.",
+    answer: "Não. O OKT funciona como apoio à deteção precoce do cancro da mama e deve ser complementado com acompanhamento médico.",
   },
   {
     question: "É um diagnóstico?",
-    answer: "Sim, indica se tem ou não cancro associado às variantes testadas.",
+    answer: "Sim, indica se há sinais genéticos associados ao cancro da mama nas variantes testadas.",
   },
   {
     question: "Quanto tempo demora?",
@@ -22,7 +22,7 @@ export const faqItems: FAQItem[] = [
   },
   {
     question: "Quem deve usar?",
-    answer: "Pessoas com histórico familiar de cancro ou que procuram prevenção proativa.",
+    answer: "Pessoas com histórico familiar de cancro da mama ou que procuram prevenção proativa.",
   },
   {
     question: "Como partilho com o meu médico de família?",

@@ -31,8 +31,14 @@ const impactCards = [
   
   {
     title: "Precisão Clínica",
-    description: "Tecnologia validada para deteção de variações e padrões mutacionais genéticos específicos.",
+    description: "Tecnologia validada para deteção de variações genéticas associadas ao cancro da mama.",
   },
+];
+
+const preventionPoints = [
+  "Complementa mamografia e acompanhamento médico regular.",
+  "Ajuda a priorizar avaliação clínica em casos com histórico familiar.",
+  "Promove decisões informadas com base em resultados claros e partilháveis.",
 ];
 
 export default function HomePage() {
@@ -48,24 +54,24 @@ export default function HomePage() {
         </div>
       </section> */}
 
-      <Section title="Problema" subtitle="O desafio no diagnóstico precoce">
+      <Section title="Problema" subtitle="O desafio no diagnóstico precoce do cancro da mama">
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="card-animated p-6">
             <ul className="space-y-4 text-sm text-blue-200">
-              <li>• A taxa de mortalidade continua a ser elevada devido a diagnósticos tardios.</li>
-              <li>• Testes tradicionais podem ser caros e/ou tardios.</li>
-              <li>• </li>
+              <li>• O cancro da mama continua entre os mais impactantes quando detetado tardiamente.</li>
+              <li>• O acesso a testes rápidos e claros ainda é limitado em muitos contextos.</li>
+              <li>• Muitas famílias precisam de respostas mais cedo para agir com o médico atempadamente.</li>
             </ul>
           </div>
           
         </div>
       </Section>
 
-      <Section title="Solução" subtitle="Um teste genético simples e acessível">
+      <Section title="Solução" subtitle="Um teste genético simples e acessível para cancro da mama">
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="card-animated p-6">
             <ul className="space-y-4 text-sm text-blue-200">
-              <li>• Teste genético focado em cancro ativo e risco hereditário.</li>
+              <li>• Teste genético focado em cancro da mama ativo e risco hereditário.</li>
               <li>• Resultados rápidos e fáceis de compreender.</li>
               <li>• Relatório pronto a partilhar com profissionais de saúde.</li>
               <li>• Disponível para realizar em casa, farmácias e centros de saúde.</li>
@@ -97,6 +103,16 @@ export default function HomePage() {
           {impactCards.map((card) => (
             <Card key={card.title} title={card.title} description={card.description} />
           ))}
+        </div>
+      </Section>
+
+      <Section title="Prevenção" subtitle="Mais contexto para agir mais cedo">
+        <div className="card-animated p-6">
+          <ul className="space-y-4 text-sm text-blue-200">
+            {preventionPoints.map((point) => (
+              <li key={point}>• {point}</li>
+            ))}
+          </ul>
         </div>
       </Section>
 
